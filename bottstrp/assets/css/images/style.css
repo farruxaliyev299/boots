@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+}
+
+.initial-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
+    
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+}
+
+.second-row{
+    display: flex;
+    justify-content: center;
+}
+
+.third-row{
+    display: flex;
+    justify-content: center;
+}
+
+.col-3{
+    width: calc(100%/4);
+    flex-wrap: wrap;
+}
+
+
+.row-cards{
+    width: 200px;
+    height: 280px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10%;
+}
